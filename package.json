@@ -1,0 +1,28 @@
+{
+  "name": "google-calendar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "outlook": "node OutlooCreatekMeetings.js",
+    "google": "node googleCreateMeetings.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.4.0",
+    "@azure/msal-node": "^2.12.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "express": "^4.19.2",
+    "googleapis": "^137.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "msal": "^1.4.18",
+    "open": "^8.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0"
+  }
+}
